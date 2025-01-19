@@ -69,7 +69,7 @@ export const projects = [
         des: "A user-centric platform designed using MERN Stack for hostel authorities to efficiently manage operations, reducing reliance on Excel by 75%.",
         img: "/5.png",
         iconLists: ["/re.svg", "/node.svg", "/express.svg", "/mongo.svg", "/tail.svg"],
-        link: "https://github.com/DhavalDudheliya/Hostel_Management",
+        link: "https://github.com/ld/Hostel_Management",
         live: true,
     },
     {
@@ -78,7 +78,7 @@ export const projects = [
         des: "A platform designed to help students retrieve lost items efficiently. This system streamlines the process of managing lost and found items, significantly reducing the need for physical office visits.",
         img: "/p2.png",
         iconLists: ["/re.svg", "/node.svg", "/express.svg", "/mongo.svg", "/tail.svg"],
-        link: "https://github.com/DhavalDudheliya/LoastAndFound",
+        link: "https://github.com/ld/LoastAndFound",
         live: false,
     },
     {
@@ -87,7 +87,7 @@ export const projects = [
         des: "A Duolingo-inspired language learning website built with Next.js, featuring AI-generated voices, Clerk authentication, Stripe payments, PostgreSQL, and Drizzle ORM. Includes admin dashboard, units, lessons, points, hearts, quests, leaderboards, and a shop.",
         img: "/p3.png",
         iconLists: ["/next.svg", "/tail.svg", "/clerk.png", "/drizzle.png", "/post.png", "/stripe.svg"],
-        link: "https://github.com/DhavalDudheliya/DuoLingo_Clone",
+        link: "https://github.com/ld/DuoLingo_Clone",
         live: true,
     },
 ];
@@ -230,7 +230,7 @@ export const skills = [
     {
         id: 8,
         name: "ExpressJS",
-        img: "/express.png"
+        img: "/express.svg"
     },
     {
         id: 9,
@@ -243,9 +243,9 @@ export const skills = [
         img: "/tail.png"
     },
     {
-        id: 11,
-        name: "Bootstrap",
-        img: "/boot.png"
+        id: 10,
+        name: "Material-UI",
+        img: "/mui.svg"
     },
     {
         id: 12,
@@ -269,13 +269,13 @@ export const skills = [
     },
     {
         id: 16,
-        name: "C++",
-        img: "/cpp.png"
+        name: "Java",
+        img: "/java.png"
     },
     {
         id: 17,
-        name: "Python",
-        img: "/py.png"
+        name: "Android",
+        img: "/android.png"
     },
     {
         id: 18,

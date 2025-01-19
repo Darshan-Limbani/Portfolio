@@ -12,13 +12,13 @@ import {
 } from "react-icons/fa";
 
 const socials = [
-  { icon: <FaGithub />, path: "https://github.com/DhavalDudheliya" },
-  {
-    icon: <FaLinkedin />,
-    path: "https://www.linkedin.com/in/dhaval-dudheliya-28b78b1b8",
-  },
-  { icon: <FaTwitter />, path: "https://x.com/Dhaval_1364" },
-  { icon: <FaInstagram />, path: "https://www.instagram.com/dhaval___.here/" },
+    { icon: <FaGithub />, path: "https://github.com/Darshan-Limbani" },
+    {
+        icon: <FaLinkedin />,
+        path: "https://www.linkedin.com/in/darshan-limbani/",
+    },
+    // { icon: <FaTwitter />, path: "https://x.com/Dhaval_1364" },
+    { icon: <FaInstagram />, path: "https://www.instagram.com/_mr._mukhi_" },
 ];
 
 const Footer = () => {
@@ -75,7 +75,7 @@ const Footer = () => {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="flex flex-col lg:flex-row gap-4"
         >
-          <a href="mailto:dhavaldudheliya77@gmail.com">
+          <a href="mailto:darshanlimbani94@gmail.com">
             <MagicButton
               title="Let's get in touch"
               icon={<FaLocationArrow />}
@@ -83,9 +83,9 @@ const Footer = () => {
               cv
             />
           </a>
-          <a href="tel:+919157795624">
+          <a href="tel:+919429218401">
             <MagicButton
-              title="+91 9157795624"
+              title="+91 9429218401"
               icon={<FaPhone />}
               position="right"
               cv
@@ -105,7 +105,7 @@ const Footer = () => {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="md:text-base text-sm md:font-normal font-light"
         >
-          Copyright © 2024 Dhaval Dudheliya
+          Copyright © 2024 Darshan Limbani
         </motion.p>
 
         <motion.div

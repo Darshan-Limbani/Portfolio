@@ -9,7 +9,7 @@ const Card6 = () => {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
-    const text = "dhavaldudheliya77@gmail.com";
+    const text = "darshanlimbani94@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
 

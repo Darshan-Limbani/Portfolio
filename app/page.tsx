@@ -18,7 +18,7 @@ const navItems = [
   { name: "Home", link: "#home", icon: <FaHome /> },
   { name: "About", link: "#about", icon: <FaUser /> },
   { name: "Skills", link: "#skills", icon: <FaTools /> },
-  { name: "Projects", link: "#projects", icon: <FaProjectDiagram /> },
+  // { name: "Projects", link: "#projects", icon: <FaProjectDiagram /> },
   { name: "Contact", link: "#contact", icon: <FaEnvelope /> },
 ];
 
@@ -31,8 +31,8 @@ export default function Home() {
           <Hero />
           <Grid />
           <Skills />
-          <RecentProjects />
-          <Experience />
+          {/*<RecentProjects />*/}
+          {/*<Experience />*/}
           <Footer />
           <div className="mt-10"></div>
         </div>

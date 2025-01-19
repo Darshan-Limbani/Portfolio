@@ -3,13 +3,13 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const socials = [
-  { icon: <FaGithub />, path: "https://github.com/DhavalDudheliya" },
+  { icon: <FaGithub />, path: "https://github.com/Darshan-Limbani" },
   {
     icon: <FaLinkedin />,
-    path: "https://www.linkedin.com/in/dhaval-dudheliya-28b78b1b8",
+    path: "https://www.linkedin.com/in/darshan-limbani/",
   },
-  { icon: <FaTwitter />, path: "https://x.com/Dhaval_1364" },
-  { icon: <FaInstagram />, path: "https://www.instagram.com/dhaval___.here/" },
+  // { icon: <FaTwitter />, path: "https://x.com/Dhaval_1364" },
+  { icon: <FaInstagram />, path: "https://www.instagram.com/_mr._mukhi_" },
 ];
 
 type Props = {

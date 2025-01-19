@@ -4,23 +4,23 @@ import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const ststs = [
+const stats = [
   {
-    num: 4,
-    text: "Months of experiance",
+    num: 3,
+    text: "Years of experience",
   },
   {
     num: 5,
     text: "Projects completed",
   },
   {
-    num: 3,
-    text: "Technologies mastered",
+    num: 8,
+    text: "Technologies/Frameworks mastered",
   },
-  {
-    num: 365,
-    text: "Code commits",
-  },
+  // {
+  //   num: 365,
+  //   text: "Code commits",
+  // },
 ];
 
 const Stats = () => {
@@ -40,7 +40,7 @@ const Stats = () => {
     >
       <div className="container mx-auto">
         <div className="inline-flex flex-wrap justify-between w-full gap-6  mx-auto xl:max-w-none">
-          {ststs.map((stat, index) => {
+          {stats.map((stat, index) => {
             return (
               <div
                 key={index}
@@ -51,6 +51,7 @@ const Stats = () => {
                   duration={5}
                   delay={1.4}
                   className="text-4xl xl:text-6xl font-extrabold"
+                  suffix={"+"}
                 />
                 <p
                   className={`${

@@ -26,7 +26,7 @@ const Card5 = () => {
         <div
           className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
         >
-          Currently learning React Native
+            Currently looking for a <span className={"animate-pulse"}>freelance</span> opportunity
         </div>
       </div>
       ;

@@ -11,8 +11,8 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const handleClick = () => {
     const link = document.createElement("a");
-    link.href = "/Dhaval_Dudheliya_Resume.pdf";
-    link.download = "Dhaval_Dudheliya_Resume.pdf";
+    link.href = "https://drive.google.com/uc?export=download&id=1BHnzYpPFJd_hoZWiBL-Jt87Y66O2mwnf";
+    link.download = "Darshan-Limbani Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -26,56 +26,55 @@ const Hero = () => {
           <div className="flex flex-col xl:flex-row items-center justify-between xl:gap-10">
             <div className="text-center xl:text-left order-2 xl:order-none">
               <motion.div
-                initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.5, duration: 0.7 }}
+                  initial={{opacity: 0, x: -100}}
+                  animate={{opacity: 1, x: 0}}
+                  transition={{delay: 0.5, duration: 0.7}}
               >
                 <motion.h1
-                  className="h1"
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{ duration: 1 }}
+                    className="h1"
+                    initial={{x: -1000}}
+                    animate={{x: 0}}
+                    transition={{duration: 1}}
                 >
-                  Hello👋 I&apos;m <br />
-                  <span className="text-green">Dhaval Dudheliya.</span>
+                  Hi there! 👋 I&apos;m <br/>
+                  <span className="text-green">Darshan Limbani.</span>
                 </motion.h1>
                 <motion.p
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{ delay: 0.2, duration: 1 }}
-                  className="text-xl font-semibold ml-1 text-yellow-200"
+                    initial={{x: -1000}}
+                    animate={{x: 0}}
+                    transition={{delay: 0.2, duration: 1}}
+                    className="text-xl font-semibold ml-1 text-yellow-200"
                 >
-                  a Full Stack Developer,
+                  A Software Developer,
                 </motion.p>
                 <motion.p
-                  initial={{ x: -1000 }}
-                  animate={{ x: 0 }}
-                  transition={{ delay: 0.4, duration: 1 }}
-                  className="max-w-[500px] mt-4 mb-9 text-white/80 ml-1"
+                    initial={{x: -1000}}
+                    animate={{x: 0}}
+                    transition={{delay: 0.4, duration: 1}}
+                    className="max-w-[500px] mt-4 mb-9 text-white/80 ml-1"
                 >
-                  based in India📍. I excel at crafting elegant digital
-                  experiences and I am proficient in various programming
-                  languages and technologies.
+                  Located in India&#x1F1EE;&#x1F1F3;. I specialize in creating seamless digital experiences
+                  and possess expertise in a range of programming languages and technologies.
                 </motion.p>
               </motion.div>
 
               <motion.div
-                initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.6, duration: 0.7 }}
-                className="flex flex-col xl:flex-row items-center gap-8"
+                  initial={{opacity: 0, x: -100}}
+                  animate={{opacity: 1, x: 0}}
+                  transition={{delay: 0.6, duration: 0.7}}
+                  className="flex flex-col xl:flex-row items-center gap-8"
               >
                 <MagicButton
-                  title="Download CV"
-                  icon={<Download height={20} width={20} color="#00ff99" />}
-                  position="right"
-                  handleClick={handleClick}
-                  cv={true}
+                    title="Download CV"
+                    icon={<Download height={20} width={20} color="#00ff99"/>}
+                    position="right"
+                    handleClick={handleClick}
+                    cv={true}
                 />
                 <div className="mb-8 xl:mb-0">
                   <Socials
-                    containerStyles="flex gap-6"
-                    iconStyles="w-9 h-9 border border-green rounded-full flex justify-center items-center text-green text-base hover:bg-green hover:text-black-100 hover:transition-all duration-500"
+                      containerStyles="flex gap-6"
+                      iconStyles="w-9 h-9 border border-green rounded-full flex justify-center items-center text-green text-base hover:bg-green hover:text-black-100 hover:transition-all duration-500"
                   />
                 </div>
               </motion.div>
