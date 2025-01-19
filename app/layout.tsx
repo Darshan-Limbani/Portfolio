@@ -23,12 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <head>
-        <link rel="icon" href="/logo.png" />
-      </head> */}
-      <body className={jetbrainsMono.variable}>
-        <StairEffect />
-        <PageTransition>
+    <head>
+        <link rel="icon" href="/logo.png"/>
+        <meta name="google-site-verification" content="NeuRGGHiLK9NSMreOHbqqUVKzjU8uI3-rXO7EdgqKXA"/>
+    </head>
+    <body className={jetbrainsMono.variable}>
+    <StairEffect/>
+    <PageTransition>
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
