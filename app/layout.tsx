@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import type {Metadata} from "next";
+import {JetBrains_Mono} from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "./provider";
+import {ThemeProvider} from "./provider";
 import PageTransition from "@/components/ui/PageTransition";
 import StairEffect from "@/components/ui/StairEffect";
 
@@ -12,9 +12,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Darshan Limbani - Software Developer & MERN Stack Engineer",
+    title: "Darshan Limbani | MERN Stack Developer | Software Engineer | Portfolio",
     description:
-        "Experienced Software Developer specializing in the MERN stack. Explore my portfolio showcasing 3+ years of expertise in web and software solutions.",
+        "Darshan Limbani is a Software Developer and MERN Stack Engineer with over 3 years of experience specializing in full-stack web development, mobile apps, and custom solutions.",
     keywords: [
         "Darshan Limbani",
         "Software Developer",
@@ -22,6 +22,8 @@ export const metadata: Metadata = {
         "Freelance Developer",
         "Web Development",
         "Android Development",
+        "Freelance MERN stack developer",
+        "React developer for hire"
     ],
     authors: [{ name: "Darshan Limbani", url: "https://darshan-limbani.vercel.app" }],
     openGraph: {
@@ -55,6 +57,7 @@ export const metadata: Metadata = {
     verification: {
         google: "NeuRGGHiLK9NSMreOHbqqUVKzjU8uI3-rXO7EdgqKXA",
     },
+
 };
 
 const structuredData = {
@@ -66,6 +69,7 @@ const structuredData = {
     sameAs: [
         "https://www.linkedin.com/in/darshan-limbani",
         "https://github.com/Darshan-Limbani",
+        "https://www.upwork.com/freelancers/darshanl2"
     ],
     worksFor: {
         "@type": "Organization",
@@ -99,6 +103,7 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
+        <title>Darshan Limbani | MERN Stack Developer | Software Engineer | Portfolio</title>
         <link rel="icon" href="/logo.png"/>
         <meta name="google-site-verification" content="NeuRGGHiLK9NSMreOHbqqUVKzjU8uI3-rXO7EdgqKXA"/>
         <script

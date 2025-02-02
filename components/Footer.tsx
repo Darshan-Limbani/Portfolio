@@ -1,21 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
-import { FaLocationArrow } from "react-icons/fa6";
+import {useInView} from "react-intersection-observer";
+import {motion} from "framer-motion";
+import {FaLocationArrow, FaUpwork} from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-import {
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaPhone,
-  FaTwitter,
-} from "react-icons/fa";
+import {FaGithub, FaInstagram, FaLinkedin, FaPhone} from "react-icons/fa";
 
 const socials = [
     { icon: <FaGithub />, path: "https://github.com/Darshan-Limbani" },
     {
         icon: <FaLinkedin />,
         path: "https://www.linkedin.com/in/darshan-limbani/",
+    },
+    {
+        icon: <FaUpwork/>,
+        path: "https://www.upwork.com/freelancers/darshanl2"
     },
     // { icon: <FaTwitter />, path: "https://x.com/Dhaval_1364" },
     { icon: <FaInstagram />, path: "https://www.instagram.com/_mr._mukhi_" },
