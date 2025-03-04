@@ -1,6 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
 import { projects } from "@/data";
 import React from "react";
 import dynamic from "next/dynamic";
@@ -8,8 +6,6 @@ const PinContainer = dynamic(
   () => import("./ui/3d-pin").then((mod) => mod.PinContainer),
   { ssr: false }
 );
-import { FaLocationArrow } from "react-icons/fa";
-import { FaCircleDot } from "react-icons/fa6";
 
 const RecentProjects = () => {
   return (
@@ -51,7 +47,7 @@ const RecentProjects = () => {
                         </div>
                       ))}
                     </div>
-                    <div className="flex flex-col justify-center items-center">
+                   {/* <div className="flex flex-col justify-center items-center">
                       <p className="flex md:text-sm text-xs text-green text-right items-center gap-2">
                         Check Repository <FaLocationArrow color="white" />
                       </p>
@@ -60,7 +56,7 @@ const RecentProjects = () => {
                           & live site <FaCircleDot color="red" />
                         </p>
                       )}
-                    </div>
+                    </div>*/}
                   </div>
                 </PinContainer>
               </div>

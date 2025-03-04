@@ -6,7 +6,6 @@ import MagicButton from "./MagicButton";
 import {FaGithub, FaInstagram, FaLinkedin, FaPhone} from "react-icons/fa";
 
 const socials = [
-    { icon: <FaGithub />, path: "https://github.com/Darshan-Limbani" },
     {
         icon: <FaLinkedin />,
         path: "https://www.linkedin.com/in/darshan-limbani/",
@@ -15,6 +14,7 @@ const socials = [
         icon: <FaUpwork/>,
         path: "https://www.upwork.com/freelancers/darshanl2"
     },
+    { icon: <FaGithub />, path: "https://github.com/Darshan-Limbani" },
     // { icon: <FaTwitter />, path: "https://x.com/Dhaval_1364" },
     { icon: <FaInstagram />, path: "https://www.instagram.com/_mr._mukhi_" },
 ];
@@ -103,7 +103,7 @@ const Footer = () => {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className="md:text-base text-sm md:font-normal font-light"
         >
-          Copyright © 2024 Darshan Limbani
+          Copyright © {new Date().getFullYear()} Darshan Limbani
         </motion.p>
 
         <motion.div

@@ -31,8 +31,8 @@ export default function Home() {
           <Hero />
           <Grid />
           <Skills />
-          {/*<RecentProjects />*/}
-          {/*<Experience />*/}
+          <RecentProjects />
+          <Experience />
           <Footer />
           <div className="mt-10"></div>
         </div>

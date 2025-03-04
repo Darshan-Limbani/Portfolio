@@ -21,7 +21,7 @@ const Card4 = () => {
         <div
           className={`font-sans text-lg lg:text-2xl max-w-full font-bold z-10`}
         >
-          Experiance in creating dynamic, responsive, and user-friendly web
+          Experience in creating dynamic, responsive, and user-friendly web
           applications.
         </div>
       </div>
