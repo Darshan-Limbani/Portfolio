@@ -171,20 +171,10 @@ export const workExperience = [
     {
         id: 1,
         title: "Software Developer",
-        company: "WhiteStone Infotech",
+        company: "Acravio (Formerly CIFS Code)",
         location: "Surat, India",
-        Duration: "January 2024 - Present",
+        Duration: "January 2023 - Present",
         desc: "Provided technical guidance and contributed to key decisions as a senior developer, collaborating with cross-functional teams. Designed and developed full-stack solutions for a lead generation and email-sending platform (B2B Rocket) using the MERN stack.",
-        className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
-    },
-    {
-        id: 2,
-        title: "Software Developer",
-        company: "La Net teams software solutions pvt. ltd.",
-        location: "Surat, India",
-        Duration: "January 2023 - December 2023",
-        desc: "Assisted in the creation of CrmOne, a customer relationship management platform Leveraged React, Redux, and RESTful APIs to build scalable applications. Designed reusable UI components and tailored interfaces for a seamless user experience.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
@@ -192,7 +182,7 @@ export const workExperience = [
         id: 3,
         title: "Software Developer",
         company: "Lembark Solutions",
-        Duration: "September 2020 - December 2022",
+        Duration: "January 2021 - December 2022",
         location: "Surat, India",
         desc: "Acquired extensive hands-on experience in full-stack development, including the design and implementation. Proficient in both front-end and back-end technologies, with a strong focus on creating responsive user interfaces and robust server-side functionalities.",
         className: "md:col-span-2",
@@ -263,8 +253,8 @@ export const skills = [
     },
     {
         id: 13,
-        name: "Jest",
-        img: "/jest.png"
+        name: "ElectronJS",
+        img: "/electron.png"
     },
     {
         id: 14,
