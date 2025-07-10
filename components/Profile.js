@@ -17,17 +17,12 @@ const aboutMe = {
   designation: 'Software Engineer',
   aboutMe: 'I am a software engineer who loves to code.',
   location: 'Surat, Gujarat, India',
-  skills: ['JavaScript', 'React', 'Next', 'Node', 'Express', 'MongoDB', 'HTML', 'CSS'],
+  skills: ['JavaScript', 'React', 'Next', 'Node', 'Express', 'MongoDB', 'Electron JS', 'HTML', 'CSS'],
   education: [
     {
       degree: 'Bachelor of Information Technology',
       institution: 'Gujarat Technological University (GTU)',
-      year: '2020-2023',
-    },
-    {
-      degree: 'Diploma in Computer Engineering',
-      institution: 'Gujarat Technological University (GTU)',
-      year: '2017-2020',
+      year: '2017-2021',
     }
   ]
 }

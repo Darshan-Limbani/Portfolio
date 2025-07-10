@@ -11,8 +11,8 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const handleClick = () => {
     const link = document.createElement("a");
-    link.href = "https://drive.google.com/uc?export=download&id=1BHnzYpPFJd_hoZWiBL-Jt87Y66O2mwnf";
-    link.download = "Darshan-Limbani Resume.pdf";
+    link.href = "https://drive.google.com/file/d/1DPd5ktUgspLES8TDY9RxVFcZpeEAmx76/view?usp=sharing";
+    link.download = "Darshan Limbani's Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

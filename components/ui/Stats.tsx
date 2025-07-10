@@ -6,11 +6,11 @@ import { useInView } from "react-intersection-observer";
 
 const stats = [
   {
-    num: 3,
+    num: 4,
     text: "Years of experience",
   },
   {
-    num: 5,
+    num: 7,
     text: "Projects completed",
   },
   {
